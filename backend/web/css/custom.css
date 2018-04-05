@@ -1,0 +1,32 @@
+.no-margin{
+	margin: 0px;
+}
+.no-padding{
+	padding: 0px;
+}
+.margin-top10{
+	margin-top: 10px;
+}
+.width100{
+	width: 150px;
+}
+.btn-round
+{
+	border-radius: 100%;
+	position:fixed;
+	right:25px;
+	top:560px;
+	z-index: 1100;
+	height: 60px;
+	width: 60px;
+	padding: 18px;
+}
+#part-details .table-bordered>tbody>tr>th{
+	width: 150px;
+}
+#part-details #imgs{
+	padding: 0px 5px;
+}
+#part-details img{
+	border: 1px #fff solid;
+}

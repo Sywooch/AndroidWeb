@@ -1,0 +1,61 @@
+{
+    "name": "AutoKartz.com :: One stop shop for all car need",
+    "description": "Yii 2 Advanced start template on Yii2",
+    "keywords": ["Dominus77", "yii2", "framework", "advanced", "start project template"],
+    "homepage": "http://dominus77.github.io/yii2-advanced-start",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/Dominus77/yii2-advanced-start"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "yiisoft/yii2-imagine": "^2.0",
+        "almasaeed2010/adminlte": ">= 2.4",
+        "fortawesome/font-awesome": "^4.6",
+        "driftyco/ionicons": "^2.0",
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-field-range": "*",
+        "dominus77/yii2-sweetalert2-widget": "*",
+        "guzzlehttp/guzzle": ">=4.1.4",
+        "mootensai/yii2-enhanced-gii": "*",
+        "kartik-v/yii2-mpdf": "*",
+		"yiimaker/yii2-email-templates": "~3.0",
+		"webzop/yii2-notifications": "*",
+		"shifrin/yii2-noty": "1.0.*",
+		"kartik-v/yii2-editable": "*",
+		"johnitvn/yii2-ajaxcrud": "*",
+        "himiklab/yii2-recaptcha-widget" : "*",
+        "2amigos/yii2-chartjs-widget" : "~2.0",
+        "kartik-v/yii2-detail-view": "*",
+        "wbraganca/yii2-dynamicform": "*",
+        "2amigos/yii2-date-picker-widget": "~1.0",
+        "2amigos/yii2-selectize-widget": "~1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "bower-asset/html5shiv": "*",
+        "bower-asset/respond": "*",
+
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+ 	],
+    "scripts": {
+      "post-install-cmd": "php init --env=Development --overwrite=n"
+    }
+}
